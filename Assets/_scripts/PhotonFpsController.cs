@@ -77,17 +77,17 @@ namespace Photon.Pun.Demo.Asteroids
         public void FixedUpdate()
         {
 
-            //if (!photonView.IsMine)
-            //{
-            //    return;
-            //}
+            if (!photonView.IsMine)
+            {
+                return;
+            }
 
-            //if (!controllable)
-            //{
-            //    return;
-            //}
+            if (!controllable)
+            {
+                return;
+            }
 
-            
+
             var z = Input.GetAxis("Vertical"); // up down
             var x = Input.GetAxis("Horizontal"); // left right
             var y = Input.GetKeyDown(KeyCode.Space) ? 1f : 0f;
