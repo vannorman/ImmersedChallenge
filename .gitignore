@@ -1,3 +1,4 @@
+*.bin
 *.log
 *.meta
 *.swp
@@ -5,4 +6,4 @@
 Temp
 Library/PlayerDataCache
 3rdPartyPackages
-
+Library/SourceAssetDB
