@@ -63,29 +63,37 @@
     <Compile Include="Assets/_scripts/Utils2.cs" />
     <Compile Include="Assets/3rdPartyPackages/Photon/PhotonChat/Demos/DemoChat/ChatAppIdCheckerUI.cs" />
     <Compile Include="Assets/3rdPartyPackages/Photon/PhotonChat/Demos/DemoChat/AppSettingsExtensions.cs" />
-    <Compile Include="Assets/_scripts/PhotonFpsController.cs" />
+    <Compile Include="Assets/_scripts/ThirdPersonController.cs" />
     <Compile Include="Assets/3rdPartyPackages/Photon/PhotonChat/Demos/DemoChat/NamePickGui.cs" />
+    <Compile Include="Assets/_scripts/PlayerListEntryLeChallenge.cs" />
     <Compile Include="Assets/3rdPartyPackages/Photon/PhotonChat/Demos/DemoChat/ChannelSelector.cs" />
+    <Compile Include="Assets/_scripts/MouseLook.cs" />
+    <Compile Include="Assets/_scripts/GameData.cs" />
+    <Compile Include="Assets/_scripts/ClassroomManager.cs" />
     <Compile Include="Assets/_scripts/EditorTools.cs" />
     <Compile Include="Assets/3rdPartyPackages/Photon/PhotonChat/Demos/DemoChat/IgnoreUiRaycastWhenInactive.cs" />
     <Compile Include="Assets/_scripts/LobbyMainPanel_Classroom.cs" />
     <Compile Include="Assets/3rdPartyPackages/Photon/PhotonChat/Demos/Common/EventSystemSpawner.cs" />
     <Compile Include="Assets/3rdPartyPackages/Photon/PhotonChat/Demos/DemoChat/FriendItem.cs" />
     <Compile Include="Assets/3rdPartyPackages/Photon/PhotonChat/Demos/DemoChat/ChatGui.cs" />
+    <Compile Include="Assets/_scripts/PlayerInfo.cs" />
     <Compile Include="Assets/3rdPartyPackages/Photon/PhotonChat/Demos/Common/TextToggleIsOnTransition.cs" />
+    <Compile Include="Assets/_scripts/PlayerObjectManipulator.cs" />
+    <Compile Include="Assets/_scripts/InteractableObject.cs" />
     <Compile Include="Assets/3rdPartyPackages/Photon/PhotonChat/Demos/Common/OnStartDelete.cs" />
-    <Compile Include="Assets/ClassroomManager.cs" />
-    <Compile Include="Assets/_scripts/PlayerListEntryLeChallenge.cs" />
+    <Compile Include="Assets/3rdPartyPackages/QuickOutline/Scripts/Outline.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/3rdPartyPackages/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.xml" />
     <None Include="Assets/3rdPartyPackages/Photon/PhotonUnityNetworking/changelog.txt" />
     <None Include="Assets/ScriptTemplates/51-Mirror__Network Authenticator-NewNetworkAuthenticator.cs.txt" />
     <None Include="Assets/ScriptTemplates/56-Mirror__Network Discovery-NewNetworkDiscovery.cs.txt" />
+    <None Include="Assets/3rdPartyPackages/QuickOutline/Resources/Shaders/OutlineMask.shader" />
     <None Include="Assets/3rdPartyPackages/Photon/PhotonLibs/WebSocket/websocket-sharp.dll" />
     <None Include="Assets/ScriptTemplates/57-Mirror__Network Transform-NewNetworkTransform.cs.txt" />
     <None Include="Assets/3rdPartyPackages/Photon/PhotonLibs/changes-library.txt" />
     <None Include="Assets/ScriptTemplates/52-Mirror__Network Behaviour-NewNetworkBehaviour.cs.txt" />
+    <None Include="Assets/3rdPartyPackages/QuickOutline/Readme.txt" />
     <None Include="Assets/3rdPartyPackages/Photon/PhotonUnityNetworking/readme.txt" />
     <None Include="Assets/3rdPartyPackages/Photon/PhotonChat/Demos/DemoChat/Files/eurof_tt.txt" />
     <None Include="Assets/3rdPartyPackages/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll" />
@@ -96,6 +104,7 @@
     <None Include="Assets/3rdPartyPackages/Photon/PhotonLibs/Photon3Unity3D.xml" />
     <None Include="Assets/ScriptTemplates/50-Mirror__Network Manager-NewNetworkManager.cs.txt" />
     <None Include="Assets/ScriptTemplates/54-Mirror__Network Room Manager-NewNetworkRoomManager.cs.txt" />
+    <None Include="Assets/3rdPartyPackages/QuickOutline/Resources/Shaders/OutlineFill.shader" />
     <None Include="Assets/3rdPartyPackages/Photon/PhotonUnityNetworking/link.xml" />
   </ItemGroup>
   <ItemGroup>
